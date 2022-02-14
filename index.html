@@ -1,0 +1,62 @@
+<html>
+
+<head>
+    <title>covid project</title>
+
+</head>
+<link rel="stylesheet" href="file.css" />
+
+<body>
+    <p id="alert">patient's details added successfully!!!!</p>
+    <p id="upAlert">details updated!!</p>
+    <p id='delete'>record deleted!!!</p>
+    <div id="container">
+        <form id="form-output" autocomplete="on">
+            First Name: <input id="firstName" required type="text" name="first-name"> </input></br><br></br>
+            Last Name: <input id="lastName" type="text" name="last-name" required /></input></br><br><br>
+            Email Address: <input id="emailAddress" type="text" name="emailAddress"
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required /><br><br>
+
+
+            <div id="head">
+                <label>Gender
+                    <select required id="Gender">
+                        <option value='' >Select Gender</option>
+                        <option value="Male" name="sex" >Male</option>
+                        <option value="Female" name="sex" >Female</option>
+                    </select><br><br>
+                </label>
+            </div>
+
+            <div id="checkbox">
+                <label><input type="checkbox">Recently came into Nigeria within the last 14 days?
+            </div><br>
+
+            <button type="submit" id="Submit">Submit</button>
+            <button type="reset" id="reset">Clear</button>
+
+            
+    </div>
+    </form>
+
+    <td>
+        <table class="list" id="display">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email Address</th>
+                    <th>Gender</th>
+                    <th>Came to Nigeria<br> within the last 14 days?</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody class="table-body">
+
+            </tbody>
+        </table>
+    </td>
+
+    <script src="file.js"></script>
+</body>
+
+</html>

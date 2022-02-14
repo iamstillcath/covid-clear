@@ -1,0 +1,156 @@
+body{
+    text-align: center; 
+    width: auto;
+    height: auto;
+    display: block;
+}
+#container{
+    background-color: lightgrey;
+    padding-left: 1%;
+    margin: 5% ;
+    text-align: left;
+    margin-left: 35%;
+    margin-right: 35%;
+    justify-content: center;
+    border-radius: 20px;
+}
+input{
+    font-family: arial;
+    font-size: 14px;
+    font-weight: 180px;
+    margin: 2px;
+    margin-top: 5px;
+ 
+
+
+}
+#head{
+    font-size: 24px;
+}
+#Gender{
+    font-size: 12px;
+    margin: 12px;
+    padding: 8px;
+    font-family: arial;
+
+}
+
+#checkbox{
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-right: 1%;
+    justify-content: left;
+    
+    
+}
+
+#Submit{
+    border-radius: 14px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: coral;
+    cursor: pointer;
+    padding: 1%;
+    margin-left: 40%;
+
+
+}
+
+#Submit:hover{
+    background-color: crimson;
+}
+
+#display{
+    border-collapse: collapse;
+    width: 50%;
+    border: 3px solid black;
+    margin-left: 25%;
+    background-color: chocolate;
+    font-size: 12px;
+}
+
+table , tr,th{
+    border: 1px solid black;
+    padding: 4px;
+    text-align: center;
+   
+
+}
+
+td {
+    margin: 15px;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+#alert{
+    position: absolute;
+    top: 0;
+    text-align: center;
+    visibility: hidden;
+    border: 2px  solid green;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    margin-left: 40%;
+    margin-top: 0.3rem;
+    color: blue;
+}
+#alert.show{
+    visibility: visible;
+}
+
+#display.show{
+    visibility: visible;
+
+}
+#display {
+    margin-top: 1rem;
+    max-width: 900px;
+    border-collapse: collapse;
+    visibility: hidden;
+    border-width: 3px;
+    border-style: solid;
+    border-color: initial;
+    border-image: initial;
+}
+
+#upAlert{
+    position: absolute;
+    top: 0;
+    text-align: center;
+    visibility: hidden;
+    border: 2px solid pink;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    margin-left: 45%;
+    margin-top: 0.3rem;
+    color: green;
+}
+
+#upAlert.show{
+    visibility: visible;
+}
+
+#delete{
+    position: absolute;
+    top: 0;
+    text-align: center;
+    visibility: hidden;
+    border: 2px solid orange;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    margin-left: 45%;
+    margin-top: 0.3rem;
+    color: red;
+}
+#delete.show{
+    visibility: visible;
+}
