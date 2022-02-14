@@ -21,7 +21,6 @@ document.querySelector('#lastName').addEventListener("input", function (e) {
 form.addEventListener("submit", function (e) {
     e.preventDefault()
 
-
     if (submitBtn.textContent == "Submit") {
         showTable.className = "show"
         let firstname = document.getElementById("firstName").value;
